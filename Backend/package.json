@@ -48,7 +48,7 @@
     "pg-hstore": "^2.3.4",
     "prisma": "^4.4.0",
     "prisma-docs-generator": "^0.5.0",
-    "puppeteer": "^19.4.1",
+    "puppeteer": "^19.5.2",
     "swagger-ui-express": "^4.6.0",
     "uuid": "^9.0.0"
   },

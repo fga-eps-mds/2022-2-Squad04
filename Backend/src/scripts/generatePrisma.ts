@@ -57,6 +57,7 @@ const generateClass = async (
 ) => {
   // Gerar código das matérias
   const newCodigonome = codigoNome.map((codigo) => codigo.split(" ")[0].trim());
+
   // Gerar professores das matérias
   const teacher = nome.map((prof) => prof.split("(")[0].trim());
 
