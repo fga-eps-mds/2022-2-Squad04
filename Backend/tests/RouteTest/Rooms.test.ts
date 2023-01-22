@@ -1,7 +1,13 @@
 import req from "supertest";
 import server from "../../src/server";
+import utils from "../Utils";
 
 describe("Rooms Routes test", () => {
+  beforeAll(async () => {
+    await utils.resetDatabase();
+    await utils.mockRooms();
+  });
+
   it("should list all rooms", async () => {
     const response = await req(server).get("/api/rooms/");
     expect(response.statusCode).toBe(200);

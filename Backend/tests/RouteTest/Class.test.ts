@@ -1,7 +1,13 @@
 import req from "supertest";
 import server from "../../src/server";
+import utils from "../Utils";
 
 describe("Class Routes test", () => {
+  beforeAll(async () => {
+    await utils.resetDatabase();
+    await utils.mockClass();
+  });
+
   it("should list all class", async () => {
     const response = await req(server).get("/api/class/");
     expect(response.statusCode).toBe(200);

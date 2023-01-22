@@ -1,7 +1,13 @@
 import req from "supertest";
 import server from "../../src/server";
+import utils from "../Utils";
 
 describe("Building Routes test", () => {
+  beforeAll(async () => {
+    await utils.resetDatabase();
+    await utils.mockBuilding();
+  });
+
   it("should list all buildings", async () => {
     const response = await req(server).get("/api/building/");
     expect(response.statusCode).toBe(200);
