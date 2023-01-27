@@ -5,6 +5,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
+[![Maintainability](https://api.codeclimate.com/v1/badges/3c5d505453487767dfb3/maintainability)](https://codeclimate.com/github/fga-eps-mds/2022-2-FGAtlas/maintainability)
 [![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
