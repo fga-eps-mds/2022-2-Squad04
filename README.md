@@ -248,7 +248,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/fga-eps-mds/
 [stars-shield]: https://img.shields.io/github/stars/fga-eps-mds/2022-2-FGAtlas.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/fga-eps-mds/2022-2-FGAtlas.svg?style=for-the-badge
-[issues-url]: https://img.shields.io/github/issues/fga-eps-mds/2022-2-FGAtlas?style=for-the-badge
+[issues-url]: https://github.com/fga-eps-mds/2022-2-FGAtlas/issues
 [maintainability-shield]: https://img.shields.io/codeclimate/maintainability-percentage/fga-eps-mds/2022-2-FGAtlas?style=for-the-badge
 [maintainability-url]: https://codeclimate.com/github/fga-eps-mds/2022-2-FGAtlas/maintainability
 [license-shield]: https://img.shields.io/github/license/fga-eps-mds/2022-2-FGAtlas.svg?style=for-the-badge
