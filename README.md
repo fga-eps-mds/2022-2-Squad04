@@ -5,7 +5,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-[![Maintainability](https://api.codeclimate.com/v1/badges/3c5d505453487767dfb3/maintainability)](https://codeclimate.com/github/fga-eps-mds/2022-2-FGAtlas/maintainability)
+[![maintainability][maintainability-shield]][maintainability-url]
 [![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
@@ -248,7 +248,9 @@ Distributed under the MIT License. See [LICENSE](https://github.com/fga-eps-mds/
 [stars-shield]: https://img.shields.io/github/stars/fga-eps-mds/2022-2-FGAtlas.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/fga-eps-mds/2022-2-FGAtlas.svg?style=for-the-badge
-[issues-url]: https://github.com/fga-eps-mds/2022-2-FGAtlas/issues
+[issues-url]: https://img.shields.io/github/issues/fga-eps-mds/2022-2-FGAtlas?style=for-the-badge
+[maintainability-shield]: https://img.shields.io/codeclimate/maintainability-percentage/fga-eps-mds/2022-2-FGAtlas?style=for-the-badge
+[maintainability-url]: https://codeclimate.com/github/fga-eps-mds/2022-2-FGAtlas/maintainability
 [license-shield]: https://img.shields.io/github/license/fga-eps-mds/2022-2-FGAtlas.svg?style=for-the-badge
 [license-url]: https://github.com/fga-eps-mds/2022-2-FGAtlas/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png
