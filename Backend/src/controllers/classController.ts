@@ -1,5 +1,6 @@
 import { RequestHandler } from "express";
 import classService from "../services/classService";
+import percents from "../utils/percents";
 
 const readOneClass: RequestHandler = async (req, res) => {
   const { idClass } = req.params;
@@ -15,4 +16,11 @@ const readBySubject: RequestHandler = async (req, res) => {
   return res.json(await classService.getClassBySubject(subjectCodeId));
 };
 
-export default { readOneClass, readClasses, readBySubject };
+const percent: RequestHandler = async (req, res) => {
+  const studentsF = req.body.students;
+  const placesF = req.body.places;
+  const percentF = classService.classPercent(parseInt(studentsF, 10), parseInt(placesF, 10));
+  return res.json({ percent: percentF, status: percents.classStatus(percentF) });
+};
+
+export default { readOneClass, readClasses, readBySubject, percent };

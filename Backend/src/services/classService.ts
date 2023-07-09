@@ -1,6 +1,7 @@
 import HttpError from "http-errors";
 import classRepository from "../repositories/classRepository";
 import hourAndDay from "./generateHourAndDay";
+import percents from "../utils/percents";
 
 const getOneClass = async (id: number) => {
   const classOne: any = await classRepository.getOneClass(id);
@@ -49,4 +50,9 @@ const getClassBySubject = async (subjectCodeId: string) => {
   return newClass;
 };
 
-export default { getOneClass, getAllClasses, getClassBySubject };
+const classPercent = (studentsF: number, placesF: number) => {
+  if (studentsF < 0 || placesF <= 0) throw new HttpError.BadRequest();
+  return percents.percentC(studentsF, placesF);
+};
+
+export default { getOneClass, getAllClasses, getClassBySubject, classPercent };
